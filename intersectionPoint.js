@@ -25,7 +25,6 @@ function CrossingCheck(p1, p2) {
 
 //построение уравнения прямой Ax+By+C
 function EquationOfTheLine(p) {
-  // var A,B,C;
   A = p.y2 - p.y1;
   B = p.x1 - p.x2;
   C = -p.x1 * (p.y2 - p.y1) + p.y1 * (p.x2 - p.x1);
